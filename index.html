@@ -1,0 +1,476 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Foundation Tutorial</title>
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link rel="stylesheet" href="css/foundation-icons.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<style>
+	body{margin-bottom: 30%;}
+</style>
+<body>
+	<div class='top-bar'>
+		<div class='top-bar-left'>
+			<ul class='dropdown menu' data-dropdown-menu>
+				<li class='menu-text'> Site Title
+				</li>
+				<li> 
+					<a href="#"> One </a>
+					<ul class="menu vertical">
+						<li> <a href="#"> One </a></li>
+						<li> <a href="#"> Two </a></li>
+						<li> <a href="#"> Three </a></li>
+					</ul>
+				</li>
+				<li> <a href="#"> Two </a></li>
+				<li> <a href="#"> Three</a></li>
+			</ul>
+		</div>
+
+		<div class='top-bar-right'>
+			<ul class='menu'>
+				<li> <input type='search' placeholder="search"></li>
+				<li> <button type="button" class="button">Search</button></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		TEST
+		<h1> Hello <small>World</small></h1>
+		<h2 class='subheader'> Hello <small>World</small> </h2>
+		<p>
+			<strong>Huge Lorem Ipsum generator</strong>
+			<br>Huge Lorem Ipsum generator
+			<em>Huge Lorem Ipsum generator</em>
+			Huge Lorem Ipsum generatorHuge Lorem Ipsum generator. Huge Lorem Ipsum generatorHuge Lorem Ipsum generatorHuge Lorem Ipsum generator
+		</p>
+		<p class='lead'>Huge Lorem Ipsum generatorHuge Lorem Ipsum generator. <a href="#">Huge Lorem Ipsum generator</a>Huge Lorem Ipsum generatorHuge Lorem Ipsum generatorHuge Lorem Ipsum generator
+		</p>
+	</div>
+
+	<p> Showing Stat Class</p>
+	<div class="stat"> 230 Days</div>
+	<hr>
+
+	<p class="text-left"> on the Left </p>
+	<p class="text-center"> on the center </p>
+	<p class='text-right'> on the right</p>
+	<p class="text-justify"> justified </p>
+
+	<div class='callout clearfix'>
+		<a class="button float-left"> Left </a>
+		<a class="button float-right">right </a>
+	</div>
+
+	<hr>
+	<code> &lt;div class='myClass'&gt; Hello World &lt;div&gt;</code>
+	<p> Press <kbd> Cmd + R</kbd></p>
+
+	<hr>
+	<blockqoute> This is my Famous Qoute
+		<cite> My name</cite>
+	</blockqoute>
+
+	<hr> 
+	<ul>
+		<li> Item 1</li>
+		<li> Item 2</li>
+		<li> Item Array 
+			<ul>
+				<li> Item Nested 1</li>
+				<li> Item Nested 2</li>
+			</ul>
+		</li>
+	</ul>
+
+	<ol class='no-bullet'>
+		<li> Item 1</li>
+		<li> Item 2</li>
+		<li> Item Array 
+			<ul>
+				<li> Item Nested 1</li>
+				<li> Item Nested 2</li>
+			</ul>
+		</li>
+	</ol>
+
+	<p class="hide"> Hidden Para </p>
+	<p class='invisible'> Invisile, Difference is, text isn't shown but the element still occupies space</p>
+	<p> You're on a small screen </p>
+	<p class="show-for-medium"> You're on medium screen </p>
+	<p class='show-for-large'> You'r eon a large screen </p>
+	<p class='hide-for-small-only'> You're not on a small screen</p>
+	<p class='hide-for-medium-only'> You're not on medium</p>
+	<p class="hide-for-large-only"> You're not large </p>
+	<p class='show-for-landscape'> You're on landscape</p>
+	<p class='show-for-portrait'> You're on portrait</p>
+
+	<hr>
+
+	<div class='row'>
+		<button class="button"> Button </button>
+		<a href="#" class="button"> Link</a>
+		<input type='button' class='button' value='input'>
+
+		<br>
+		<button class='success button'> Success button </button>
+		<button class='alert button'> Alert Button</button>
+		<button class='warning button'> Warning Button</button>
+		<button class='secondary button'> Secondary Button</button>
+		<button class='disabled button'> Disabled Button</button>
+
+		<br>
+		<button class='tiny button'> Tiny Button</button>
+		<button class='small button'> Small Button</button>
+		<button class='button'> Button </button>
+		<button class="large button"> Large Button </button>
+		<button class="expanded button"> Expanded Button</button>
+		<button class='expanded large button'> Expanded Large Button</button>
+
+		<br> 
+		<button class='success button hollow'> Success button </button>
+		<button class='alert button hollow'> Alert Button</button>
+		<button class='warning button hollow'> Warning Button</button>
+		<button class='secondary button hollow'> Secondary Button</button>
+	</div>
+
+	<div class='row'>
+		<form>
+			<div>
+				<label> Name</label>
+				<input type='text' placeholder="Your Full Name">
+			</div>
+			<div>
+				<label> Email</label>
+				<input type='email' placeholder="Your Email">
+			</div>
+			<div>
+				<label> Password</label>
+				<input type='password' placeholder="Your Password">
+				<p class="help-text"> Your passwd must be 8 chars </p>
+			</div>
+			<div class="input-group">
+				<input type="text" name="" class='input-group-field'>
+				<span class="input-group-label">@mysite.com</span>
+				<div class='input-group-button'>
+					<input type="submit" class='button' value='Submit'>
+				</div>
+			</div>
+			<div class='switch'>
+				<input class="switch-input" id='mySwitch' name="" type='checkbox' >
+				<label class='switch-paddle' for='mySwitch'> 
+					<span class="show-for-sr">Enabled </span>
+				</label>
+			</div>
+			<div>
+				<label> Cell Number</label>
+				<input type='number' placeholder="Your Number">
+			</div>
+			<div class='slider' data-slider data-initial-start='0' data-end='30'>
+
+				<span class="slider-handle" data-slider-handle role='slider' tab-index='1'></span>
+				<span class="slider-fill" data-slider-fill></span>
+				<input type="hidden">
+			</div>
+			<div>
+				<label> Textarea</label>
+				<textarea placeholder="Your Message"> </textarea>
+			</div>
+			<div>
+				<label> Gender</label>
+				<select>
+					<option> Male</option>
+					<option> Female</option>
+					<option> Other</option>>
+				</select>
+			</div>
+			<div>
+				<label> Favorite Food</label>
+				<select multiple>
+					<option> Spicy</option>
+					<option> Indian</option>
+					<option> Other</option>
+				</select>
+			</div>
+			<fieldset class="fieldset">
+				<legend> Hobbies</legend>
+				<input type='checkbox'> <label> Reading </label>
+				<input type="checkbox"> <label> Cooking</label>
+				<input type="checkbox" name=""> <label> Running</label>
+			</fieldset>
+			<label for="fileUpload" class='button'> Upload Picture </label>
+			<input type="file" name="" id="fileUpload" class='show-for-sr'>
+		</form>
+	</div>
+
+	<div class='row'>
+		<table class="striped hover stack table-scroll">
+			<tr> 
+				<th>Name</th>
+				<th> Address</th>
+				<th> Phone</th>
+			</tr>
+			<tr>
+				<td> Andy</td>
+				<td> Murica</td>
+				<td> 123</td>
+			</tr>
+			<tr>
+				<td> Andy</td>
+				<td> Murica</td>
+				<td> 123</td>
+			</tr>
+			<tr>
+				<td> Andy</td>
+				<td> Murica</td>
+				<td> 123</td>
+			</tr>
+			<tr>
+				<td> Andy</td>
+				<td> Murica</td>
+				<td> 123</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="row">
+		<ul class="menu">
+			<li class="menu-text"> Site Title </li>
+			<li> <a href='#'> Link 1</a></li>
+			<li class='active'> <a href='#'> Link 1</a></li>
+			<li> <a href='#'> Link 1</a></li>
+			<li> <a href='#'> Link 1</a></li>
+			<li> <a href='#'> Link 1</a></li>
+		</ul>
+		<ul class="menu vertical">
+			<li> <a href='#'> Link 1</a></li>
+			<li class='active'> <a href='#'> Link 1</a></li>
+			<li> <a href='#'> Link 1</a></li>
+			<li> <a href='#'> Link 1</a></li>
+			<li> <a href='#'> Link 1</a></li>
+		</ul>
+		<ul class="menu simple">
+			<li> <a href='#'> Link 1</a></li>
+			<li class='active'> <a href='#'> Link 1</a></li>
+			<li> <a href='#'> Link 1</a></li>
+			<li> <a href='#'> Link 1</a></li>
+			<li> <a href='#'> Link 1</a></li>
+		</ul>
+		<!-- menu icon-top -->
+		<ul class="menu icon">
+			<li> <a href='#'> <i class='fi-list'></i> <span> One</span></a></li>
+			<li class='active'> <a href='#'> <i class='fi-list'></i> <span> Two</span></a></li>
+			<li> <a href='#'> <i class='fi-list'></i> <span> Three</span></a></li>
+			<li> <a href='#'><i class='fi-list'></i> <span> Four</span></a></li>
+			<li> <a href='#'> <i class='fi-list'></i></a><span> Five</span></li>
+		</ul>
+	</div>
+
+	<hr>
+	<div class="row">
+		<div class='callout'>
+			<p> Example Callout</p>
+		</div>
+		<div class='callout alert'>
+			<p> Example Callout</p>
+		</div>
+		<div class='callout success'>
+			<p> Example Callout</p>
+		</div>
+		<div class='callout warning'>
+			<p> Example Callout</p>
+		</div>
+		<div class='callout secondary'>
+			<p> Example Callout</p>
+		</div>
+		<hr>
+		<div class='default progress' role='progressbar'>
+			<div class="progress-meter" style='width: 50%;'>
+				<p class='progress-meter-text'> 50%</p>
+			</div> 
+		</div>
+		<div class='success progress' role='progressbar'>
+			<div class="progress-meter" style='width: 30%;'>
+				<p class='progress-meter-text'> 30%</p>
+			</div> 
+		</div>
+		<div class='warning progress' role='progressbar'>
+			<div class="progress-meter" style='width: 60%;'>
+				<p class='progress-meter-text'> 60%</p>
+			</div> 
+		</div>
+		<div class='alert progress' role='progressbar'>
+			<div class="progress-meter" style='width: 90%;'>
+				<p class='progress-meter-text'> 90%</p>
+			</div> 
+		</div>
+
+		<hr>
+		<span class="default label"> Default Label</span>
+		<span class="success label"> Success Label</span>
+		<span class="alert label"> Alert Label</span>
+		<span class="warning label"> Warning Label</span>
+		<span class="secondary label"> Secondary Label</span>
+
+		<hr>
+		<span class="default badge"> 12</span>
+		<span class="success badge"> 23</span>
+		<span class="alert badge"> 34</span>
+		<span class="warning badge"> 45</span>
+		<span class="secondary badge"> 56</span>
+		<hr>
+
+		<nav role='navigation'>
+			<ul class='breadcrumbs'>
+				<li> <a href='#'> Home</a></li>
+				<li> <a href='#'> Gallery</a></li>
+				<li> <a href='#'> Posts</a></li>
+				<li class='disabled'> Category</li>
+				<li> Current Page</li>
+			</ul>
+		</nav>
+		<hr>
+
+		<ul class='pagination' role='navigation'>
+			<li class='disabled'> Previous</li>
+			<li class="current">1 </li>
+			<li> <a href='#'>2</a></li>
+			<li> <a href='#'>3</a></li>
+			<li> <a href='#'>4</a></li>
+			<li class='ellipsis'></li>
+			<li> <a href='#'>23</a></li>
+			<li> <a href='#'>23</a></li>
+			<li> <a href='#'>24</a></li>
+			<li> <a href='#'>Next</a></li>
+		</ul>
+
+	</div>
+
+	<div class='row'> 
+		<div class='small-8 large-8 medium-6 columns'>
+			<h3> Main Column</h3>
+			<p> [Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class='small-4 large-4 medium-6 columns'>
+				<h3> Sidebar</h3>
+				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+			<div class='row'>
+				<div class='small-3 large-3 medium-3 columns'>
+					<h3> Main Column</h3>
+					<p> [Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class='small-3 large-3 medium-3 columns'>
+						<h3> Main Column</h3>
+						<p> [Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+						<div class='small-3 large-3 medium-3 columns'>
+							<h3> Main Column</h3>
+							<p> [Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+							<div class='small-3 large-3 medium-3 columns'>
+								<h3> Main Column</h3>
+								<p> [Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								</div>
+
+							</div>
+
+							<div class='row'>
+								<div class='large-1 small-1 column large-offset-6 small-offset-6'>
+									<h3> Hello World</h3>
+								</div>
+							</div>
+
+							<div class='row'>
+								<div class="card" style='width: 300px;'>
+									<div class="card-divider">
+										Card Headinng
+									</div>
+									<img src='http://az616578.vo.msecnd.net/files/2016/05/19/635992870708337652-1698757855_summer.jpg'>
+									<div class='card-section'>
+										<h4> Summer 1935</h4>
+										<p> Instagram Filters are in the house</p>
+									</div>
+								</div>
+							</div>
+							<hr>
+
+							<div class='row'>
+								<ul class="accordion" data-accordion>
+									<li class='accordion-item is-active' data-accordion-item>
+										<a href='#' class='accordion-title'> Accordion 1</a>
+										<div class='accordion-content' data-tab-content>
+											<h5> Accordions are cool</h5>
+										</div>
+									</li>
+									<li class='accordion-item ' data-accordion-item>
+										<a href='#' class='accordion-title'> Accordion 2</a>
+										<div class='accordion-content' data-tab-content>
+											<h5> Accordions are cool2</h5>
+										</div>
+									</li>
+									<li class='accordion-item ' data-accordion-item>
+										<a href='#' class='accordion-title'> Accordion 3</a>
+										<div class='accordion-content' data-tab-content>
+											<h5> Accordions are cool3</h5>
+										</div>
+									</li>
+								</div>
+
+								<hr>
+								<ul class="tabs" data-tabs id='foundation_tut_tab'>
+									<li class='tabs-title is-active'> <a href='#panel1' aria-selected='true'> One</a> </li>
+									<li class='tabs-title'> <a href='#panel2' > Two</a> </li>
+									<li class='tabs-title'> <a href='#panel3' > Three</a> </li>
+								</ul>
+
+								<div class="tabs-content" data-tabs-content='foundation_tut_tab'>
+									<div class='tabs-panel is-active' id='panel1'> <p> vivamus dominoes</p>
+									</div>
+									<div class='tabs-panel' id='panel2'> <p> vivamus dominoes, ola andy y hoi sola murano</p>
+									</div>
+									<div class='tabs-panel' id='panel3'> <p> ramon, tu et bien dominoes</p>
+									</div>
+								</div>
+
+								<script src="js/vendor/jquery.js"></script>
+								<script src="js/vendor/what-input.js"></script>
+								<script src="js/vendor/foundation.js"></script>
+								<script src="js/app.js"></script>
+							</body>
+							</html>
